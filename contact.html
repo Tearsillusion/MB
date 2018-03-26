@@ -4,7 +4,7 @@
     <!-- BEGIN HEAD -->
     <head>
         <meta charset="utf-8"/>
-        <title></title>
+        <title>联系我们</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <meta content="" name="description"/>
@@ -22,7 +22,8 @@
         <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="shortcut icon" href="img/favicon0.ico"/>
+        <link rel="stylesheet" href="css/layout_my.css">
     </head>
     <!-- END HEAD -->
 
@@ -44,8 +45,8 @@
                         <!-- Logo -->
                         <div class="logo">
                             <a class="logo-wrap" href="index.html">
-                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                                <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                                <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo" style="width: 500px">
+                                <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
                             </a>
                         </div>
                         <!-- End Logo -->
@@ -55,7 +56,7 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">首页</a></li>
+                                <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index_list.html">首页</a></li>
                                 <li class="nav-item">
                                     <a class="nav-item-child nav-item-hover dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"href="about.html">集团简介<span class="caret"></a>
                                     <ul class="dropdown-menu">
@@ -107,10 +108,35 @@
         <!--========== END HEADER ==========-->
 
         <!--========== PARALLAX ==========-->
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
-            <div class="parallax-content container">
-                <h1 class="carousel-title">联系我们</h1>
-                <p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>
+        <!--<div class="parallax-window" data-parallax="scroll" data-image-src="img/index5.jpg">-->
+            <!--<div class="parallax-content container">-->
+                <!--<h1 class="carousel-title">联系我们</h1>-->
+                <!--<p>Lorem ipsum dolor amet consectetur adipiscing dolore magna aliqua <br/> enim minim estudiat veniam siad venumus dolore</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="container">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+            </div>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive" src="img/index5.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title">联系我们</h1>
+                                <p>最新的新闻，最全面的导航，最火热的爆料</p>
+                            </div>
+                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">探索</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--========== PARALLAX ==========-->
@@ -123,7 +149,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">纽约</a> <span class="text-uppercase margin-l-20">总部</span></h3>
+                            <h3><a href="about.html">上海</a> <span class="text-uppercase margin-l-20">总部</span></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> 1 012 3456 7890</li>
@@ -136,7 +162,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">伦敦</a> <span class="text-uppercase margin-l-20">行动</span></h3>
+                            <h3><a href="about_hanlian.html">瀚联</a> <span class="text-uppercase margin-l-20">行动</span></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> 44 77 3456 7890</li>
@@ -149,7 +175,7 @@
                     <!-- Contact List -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">新加坡</a> <span class="text-uppercase margin-l-20">金融</span></h3>
+                            <h3><a href="about_shengjie.html">圣杰</a> <span class="text-uppercase margin-l-20">金融</span></h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> 50 012 456 7890</li>
@@ -164,29 +190,62 @@
         </div>
         <!-- End Contact List -->
 
-        <!-- Google Map -->
-        <div id="map" class="map height-400"></div>
+        <!--&lt;!&ndash; Google Map &ndash;&gt;-->
+        <!--<div id="map" class="map height-400"></div>-->
 
-        <!-- Promo Section -->
-        <div class="promo-section overflow-h">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="ver-center">
-                        <div class="ver-center-aligned">
-                            <div class="promo-section-col">
-                                <h2>我们的客户</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
-                                <p>Ipsum dolor sit amet consectetur adipiscing elit sed tempor incididut ut sead laboret dolore magna aliqua enim minim veniam exercitation ipsum dolor sit amet consectetur adipiscing</p>
+        <!-- Testimonials -->
+        <div class="content-lg container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>访客评论</h2>
+
+                    <!-- Swiper Testimonials -->
+                    <div class="swiper-slider swiper-testimonials">
+                        <!-- Swiper Wrapper -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <blockquote class="blockquote">
+                                    <div class="margin-b-20">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua. Ut enim minim veniam exercitation laboris ut siad consequat siad minim enum esqudiat dolore.
+                                    </div>
+                                    <div class="margin-b-20">
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret tempor incididunt dolore magna consequat siad minim aliqua.
+                                    </div>
+                                    <p><span class="fweight-700 color-link">Joh Milner</span>, Metronic Customer</p>
+                                </blockquote>
+                            </div>
+                            <div class="swiper-slide">
+                                <blockquote class="blockquote">
+                                    <div class="margin-b-20">
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </div>
+                                    <div class="margin-b-20">
+                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                    <p><span class="fweight-700 color-link">Alex Clarson</span>, Metronic Customer</p>
+                                </blockquote>
                             </div>
                         </div>
+                        <!-- End Swiper Wrapper -->
+
+                        <!-- Pagination -->
+                        <div class="swiper-testimonials-pagination"></div>
                     </div>
+                    <!-- End Swiper Testimonials -->
                 </div>
             </div>
-            <div class="promo-section-img-right">
-                <img class="img-responsive" src="img/970x970/01.jpg" alt="Content Image">
-            </div>
+            <!--// end row -->
         </div>
-        <!-- End Promo Section -->
+        <!-- End Testimonials -->
+                        <!-- Pagination -->
+                        <div class="swiper-testimonials-pagination"></div>
+                    </div>
+                    <!-- End Swiper Testimonials -->
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+        <!-- End Testimonials -->
         <!--========== END PAGE LAYOUT ==========-->
 
         <!--========== FOOTER ==========-->
